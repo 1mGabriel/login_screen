@@ -1,0 +1,41 @@
+@use "./reset.scss";
+
+.section-1 {
+  & img {
+    height: 494px;
+    width: 494px;
+  }
+  .logo-section {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    & h1 {
+      position: relative;
+      bottom: 60px;
+      font-weight: bold;
+      font-size: 50px;
+      color: #fff;
+      font-family: "Turret Road";
+    }
+  }
+  .submit-section {
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    background-color: #000000df;
+    border-radius: 10px;
+    & h2 {
+      font-size: 26px;
+      text-align: center;
+      padding: 5px;
+
+      font-weight: lighter;
+      color: rgb(255, 255, 255);
+    }
+  }
+  .input-submit{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
